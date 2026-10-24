@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="akGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="55%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+  <!-- 背景渐变圆角矩形 -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#akGrad)" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+  <!-- 品牌 "艾" 字主体 -->
+  <g filter="url(#softGlow)">
+    <text x="32" y="47" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="38" font-weight="900" fill="#ffffff" text-anchor="middle">艾</text>
+  </g>
+</svg>
